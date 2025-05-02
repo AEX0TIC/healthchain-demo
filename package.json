@@ -1,0 +1,27 @@
+{
+  "name": "healthchain-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node start.js",
+    "blockchain": "hardhat node",
+    "deploy": "hardhat run deploy.js --network localhost",
+    "frontend": "cd frontend && npm start",
+    "frontend:ps": "cd frontend; npm start",
+    "quick:start": "powershell -File start-powershell.ps1",
+    "quick:stop": "powershell -File stop-powershell.ps1",
+    "copy-artifacts": "node copy-artifacts.js",
+    "compile": "hardhat compile && npm run copy-artifacts"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "hardhat": "^2.17.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "chai": "^4.3.7"
+  }
+}

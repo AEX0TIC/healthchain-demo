@@ -1,0 +1,3 @@
+@echo off
+echo Stopping HealthChain Demo processes...
+powershell -ExecutionPolicy Bypass -File stop-powershell.ps1 

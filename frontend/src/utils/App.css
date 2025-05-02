@@ -1,0 +1,220 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  h2 {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .connect-wallet {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .connect-wallet button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .connect-wallet button:hover {
+    background-color: #2980b9;
+  }
+  
+  .account-info {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+  
+  .tabs button.active {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .message {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #e8f4fd;
+    border-left: 3px solid #3498db;
+  }
+  
+  .ipfs-result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  
+  .note {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    font-style: italic;
+  }
+  
+  .grant-access {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .grant-access input {
+    flex: 1;
+  }
+  
+  .authorized-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .authorized-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .revoke-button {
+    background-color: #e74c3c;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  
+  .revoke-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .records-tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .patient-search {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .patient-search input {
+    flex: 1;
+  }
+  
+  .records-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .record-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .record-hash {
+    word-break: break-all;
+    font-family: monospace;
+    font-size: 0.9rem;
+  }
+  
+  .view-button {
+    padding: 5px 10px;
+    background-color: #2ecc71;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+  
+  .view-button:hover {
+    background-color: #27ae60;
+  }

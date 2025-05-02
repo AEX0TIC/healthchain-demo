@@ -1,0 +1,3 @@
+@echo off
+echo Starting HealthChain Demo with PowerShell...
+powershell -ExecutionPolicy Bypass -File start-powershell.ps1 
